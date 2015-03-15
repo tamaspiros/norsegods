@@ -1,0 +1,11 @@
+{
+    "rest-api":
+    {
+        "name": "jdays2015",
+        "group": "Default",
+        "database": "jdays-content",
+        "modules-database": "jdays-modules",
+        "forests-per-host": "1",
+        "port": "5060"
+    }
+}

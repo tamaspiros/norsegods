@@ -1,0 +1,13 @@
+doctype html
+html(lang='en', ng-app='norsegods')
+head
+    meta(charset='utf-8')
+    style
+      :css
+        li, li a {font-size: 20px}
+  body
+    h1 All hail the Norse Gods!
+    div(ng-view)
+    script(src='/bower_components/angular/angular.js')
+    script(src='/bower_components/angular-route/angular-route.min.js')
+    script(src='/public/app.js')
